@@ -8,7 +8,7 @@ import Foundation
 class UserInfoSection: AbstractTableViewSection {
 
 	private var userInfoStore: UserInfoStoreProtocol!
-	weak var view: ViewControllerProtocol!
+	weak var view: ViewControllerProtocol?
 
 	init(view: ViewControllerProtocol, _ userInfoStore: UserInfoStoreProtocol?) {
 		super.init(cellConfigurator: { model, cell in
@@ -25,7 +25,7 @@ class UserInfoSection: AbstractTableViewSection {
 
 	private func setCallbacks() {
 		onNeedReloadTableView = {[weak self] in
-			self?.view.onTableViewDataChanged()
+			self?.view?.onTableViewDataChanged()
 		}
 
 		onReorderCellsCallback = {[weak self] from, to in
@@ -39,17 +39,17 @@ class UserInfoSection: AbstractTableViewSection {
 		}
 	}
 
-	func addModel(model: ModelProtocol) {
+	func addModel(model: UserInfoModel) {
 		userInfoStore.addModel(model)
 		refresh()
 	}
 
 	private func refresh() {
 		let usersInfo = userInfoStore.getModels()
-		let models: [Model]? = usersInfo?.map { model in
+		let models: [Model]? = usersInfo.map { model in
 			Model(data: model, reuseIdentifier: UserInfoCell.identifier)
 		}
 		setModels(models: models ?? [])
-		self?.view.onTableViewDataChanged()
+		self.view?.onTableViewDataChanged()
 	}
 }

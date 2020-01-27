@@ -8,9 +8,9 @@ import Foundation
 class Section {
 
 	var title: String = ""
-	private var tableViewSection: AbstractTableViewSectionProtocol
+	var tableViewSection: AbstractTableViewSectionProtocol
 
-	init(title: Strin, tableViewSection: TableViewSection) {
+	init(title: String, tableViewSection: AbstractTableViewSectionProtocol) {
 		self.title = title
 		self.tableViewSection = tableViewSection
 	}

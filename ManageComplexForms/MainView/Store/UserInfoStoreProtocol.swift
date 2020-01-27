@@ -7,7 +7,7 @@ import Foundation
 
 protocol UserInfoStoreProtocol {
 
-	private(set) var usersInfo { get }
+	var usersInfo: [UserInfoModel] { get }
 
 	func swapElements(from: Int, to: Int)
 

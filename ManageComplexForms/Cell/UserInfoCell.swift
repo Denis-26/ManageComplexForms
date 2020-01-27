@@ -7,7 +7,7 @@ class UserInfoCell: TableViewModelCell {
 
 	override var modelProtocol: ModelProtocol? {
 		didSet {
-			guard model = modelProtocol?.data as? UserInfoModel else { return }
+			guard let model = modelProtocol?.data as? UserInfoModel else { return }
 		}
 	}
 }

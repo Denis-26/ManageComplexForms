@@ -7,7 +7,7 @@ import Foundation
 
 class UserInfoStore: UserInfoStoreProtocol {
 
-	var usersInfo: [UserInfoModel] = []
+	var usersInfo: [UserInfoModel]
 
 	init(usersInfo: [UserInfoModel]) {
 		self.usersInfo = usersInfo

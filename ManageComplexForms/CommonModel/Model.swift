@@ -9,6 +9,7 @@ class Model: ModelProtocol, Equatable {
 
 	var rowId: Int = 0
 	var data: Any?
+	var reuseIdentifier: String = ""
 
 	init<T>(data: T) {
 		self.data = data

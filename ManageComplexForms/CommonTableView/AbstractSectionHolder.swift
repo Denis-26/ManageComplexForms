@@ -5,11 +5,11 @@
 
 import Foundation
 
-class AbstractSectionHolder {
+class AbstractSectionHolder: NSObject {
 
 	internal var sections: [Section]
 
-	init() {
+	override init() {
 		sections = [Section]()
 	}
 }

@@ -25,7 +25,7 @@ class ViewController: UIViewController, ViewControllerProtocol {
 
         initViews()
         addViews()
-        constraintViews()
+        constrainViews()
     }
 
     private func initViews() {

@@ -3,7 +3,7 @@
 // Copyright (c) 2020 Denis. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 protocol AbstractTableViewSectionProtocol: UITableViewDataSource {
 	var onReorderCellsCallback: ((_ from: Int, _ to: Int) -> Void)? { get set }

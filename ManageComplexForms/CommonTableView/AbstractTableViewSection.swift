@@ -5,7 +5,7 @@
 
 import UIKit
 
-class AbstractTableViewSection: AbstractTableViewSectionProtocol {
+class AbstractTableViewSection: NSObject, AbstractTableViewSectionProtocol {
 
 	typealias ModelCellConfigurator = (ModelProtocol, UITableViewCell) -> Void
 
@@ -17,7 +17,6 @@ class AbstractTableViewSection: AbstractTableViewSectionProtocol {
 	internal var modelCellConfigurator: ModelCellConfigurator
 	private let reuseIdentifier: String
 	private var models: [ModelProtocol]
-	private var rowsToShow: Int
 
 	init(models: [ModelProtocol] = [], reuseIdentifier: String = "", cellConfigurator: @escaping ModelCellConfigurator) {
 		self.models = models

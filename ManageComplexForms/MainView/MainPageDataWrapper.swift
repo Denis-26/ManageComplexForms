@@ -7,16 +7,18 @@ import Foundation
 
 protocol MainPageDataWrapperProtocol {
 
-	private(set) var userInfoStore: UserInfoStore { get }
+	var userInfoStore: UserInfoStore { get }
 
 	func setMainPageModel(_ mainPageModel: MainPageModel)
 }
 
 class MainPageDataWrapper: MainPageDataWrapperProtocol {
 
-	var userInfoStore: UserInfoStore?
+	private(set) var userInfoStore: UserInfoStore
 
-	init() {}
+	init() {
+		userInfoStore = UserInfoStore(usersInfo: [])
+	}
 
 	func setMainPageModel(_ mainPageModel: MainPageModel) {
 		userInfoStore = UserInfoStore(usersInfo: mainPageModel.userInfoModels)

@@ -6,7 +6,7 @@
 class DataService: DataServiceProtocol {
 
 	func getMainPageModel() -> MainPageModel {
-		var userInfo = UserInfoModel("Albert", "Albertov", "Albertovich", 25, 1)
-		return MainPageModel(userInfoModels: userInfo)
+		var usersInfo = [UserInfoModel(firstName: "Albert", lastName: "Albertov", secondName: "Albertovich", age: 25, gender: 1)]
+		return MainPageModel(userInfoModels: usersInfo)
 	}
 }
