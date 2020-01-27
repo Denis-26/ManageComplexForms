@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC89A0861714A44EB260676E /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A7FDF4B74004334E87F5 /* ViewControllerProtocol.swift */; };
+		EC89A0B2A814E77E3A18782D /* UserInfoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A7D334A0C8D97C0A7B89 /* UserInfoStore.swift */; };
+		EC89A0C017448177AD5AD3A9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AF76A83EF1FEE841D6F9 /* Model.swift */; };
+		EC89A0C9640EC4C275D10453 /* MainPageDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A7F14B3746B462F2F226 /* MainPageDataWrapper.swift */; };
+		EC89A0D306343DE64A689F75 /* UserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A57E52642A3D93A1C8D9 /* UserInfoCell.swift */; };
+		EC89A0E66309C21078BAC729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AC507C9B49823D25FCD0 /* AppDelegate.swift */; };
+		EC89A160BF4A3FC5A1330B78 /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A048FD5ABE97AB1363EF /* ModelProtocol.swift */; };
+		EC89A1B27E068275501BCFD9 /* AbstractSectionHolder+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A47F6468711FE6848F71 /* AbstractSectionHolder+Delegate.swift */; };
+		EC89A4CC851344F867B31C1C /* ViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AE212B03D77A61A6E1FF /* ViewControllerPresenter.swift */; };
+		EC89A50FA1AE223D82D7C648 /* AbstractSectionHolder+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AA6E3A734A0621C02306 /* AbstractSectionHolder+DataSource.swift */; };
+		EC89A56C67405FC82E5810D2 /* UserInfoStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A589BB36FC2B289BA5A4 /* UserInfoStoreProtocol.swift */; };
+		EC89A5F45E32E9324CC85884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC89A2CF91AF3B10537C2AEA /* Assets.xcassets */; };
+		EC89A69CE0613FBEC8F17788 /* SectionHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A3F465C58F5879DE83B3 /* SectionHolder.swift */; };
+		EC89A7A2AC33E1F49CBED548 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AAD14E68F9BBCD2BAE0D /* DataService.swift */; };
+		EC89A8DF26DA6E0BEF7402A3 /* ManageComplexFormsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AD31E0E99B56DC85CC99 /* ManageComplexFormsTests.swift */; };
+		EC89A917D57A6BDB59F3A9BB /* AbstractTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AEFCFE93B814751B3FA9 /* AbstractTableViewSection.swift */; };
+		EC89A9A09FEF11B248EC2063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A902DB137291AB630CE1 /* ViewController.swift */; };
+		EC89A9AD449200068AFD7C6A /* MainPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A4372A886690813E5392 /* MainPageModel.swift */; };
+		EC89AACFFD903EE6914039FB /* ManageComplexFormsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A1AB784D1E52FF760E80 /* ManageComplexFormsUITests.swift */; };
+		EC89AADD4D3BDD0A629358A9 /* AbstractSectionHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A5229EE1D1AEBBC99041 /* AbstractSectionHolder.swift */; };
+		EC89AB50FCE7A12786199E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC89A99C0BC7C1552536C967 /* LaunchScreen.storyboard */; };
+		EC89AB630A18CAFB7E9E43F5 /* AbstractTableViewSectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AF2718211EECEBE82863 /* AbstractTableViewSectionProtocol.swift */; };
+		EC89AB66985930BE6E72E787 /* TableViewModelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A60EB8230B54C13CD140 /* TableViewModelCell.swift */; };
+		EC89AB6CD6EE478686231FF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A27F57E7563B9271CD83 /* SceneDelegate.swift */; };
+		EC89AB790AB9145FFA3A5960 /* UserInfoSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A00DC4855495E1328159 /* UserInfoSection.swift */; };
+		EC89AB8C7B8227FBF5A351F0 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A2271C9C214F6BCAE179 /* Section.swift */; };
+		EC89AC86C1986CCA346577A5 /* CommonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AFBC92AB504FCBCA2DB6 /* CommonTableViewCell.swift */; };
+		EC89ACD22C77A051B0024A5F /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AF8F731A16EA78714797 /* UserInfoModel.swift */; };
+		EC89AD0F021506EF12EBA442 /* DataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A4F8F56CEB6274B278F7 /* DataServiceProtocol.swift */; };
+		EC89AD675F7ECB1F367B7917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC89A9DDDAE5D4ACD9EEF50B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC89A26314713FDEDE47ED4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC89ADD9ADAB97146CDF5701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC89A267726EE414BA306676;
+			remoteInfo = ManageComplexForms;
+		};
+		EC89A8C3E62BF4D8A5B7061C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC89ADD9ADAB97146CDF5701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC89A267726EE414BA306676;
+			remoteInfo = ManageComplexForms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC89A00DC4855495E1328159 /* UserInfoSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoSection.swift; sourceTree = "<group>"; };
+		EC89A048FD5ABE97AB1363EF /* ModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
+		EC89A0DDAB0350C179F594E2 /* ManageComplexFormsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManageComplexFormsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC89A0FF6BB20776A77BEAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC89A1AB784D1E52FF760E80 /* ManageComplexFormsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageComplexFormsUITests.swift; sourceTree = "<group>"; };
+		EC89A2271C9C214F6BCAE179 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		EC89A27F57E7563B9271CD83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC89A2CF91AF3B10537C2AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC89A3F465C58F5879DE83B3 /* SectionHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHolder.swift; sourceTree = "<group>"; };
+		EC89A4372A886690813E5392 /* MainPageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageModel.swift; sourceTree = "<group>"; };
+		EC89A47F6468711FE6848F71 /* AbstractSectionHolder+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AbstractSectionHolder+Delegate.swift"; sourceTree = "<group>"; };
+		EC89A4A3B2F4C4FB0B74F5F0 /* ManageComplexFormsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManageComplexFormsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC89A4F8F56CEB6274B278F7 /* DataServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServiceProtocol.swift; sourceTree = "<group>"; };
+		EC89A5229EE1D1AEBBC99041 /* AbstractSectionHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractSectionHolder.swift; sourceTree = "<group>"; };
+		EC89A53207C10BB82DFE8C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		EC89A57E52642A3D93A1C8D9 /* UserInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoCell.swift; sourceTree = "<group>"; };
+		EC89A589BB36FC2B289BA5A4 /* UserInfoStoreProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoStoreProtocol.swift; sourceTree = "<group>"; };
+		EC89A60EB8230B54C13CD140 /* TableViewModelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewModelCell.swift; sourceTree = "<group>"; };
+		EC89A7D334A0C8D97C0A7B89 /* UserInfoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoStore.swift; sourceTree = "<group>"; };
+		EC89A7F14B3746B462F2F226 /* MainPageDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageDataWrapper.swift; sourceTree = "<group>"; };
+		EC89A7FDF4B74004334E87F5 /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
+		EC89A902DB137291AB630CE1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC89A99A88E4AA7DE38193BD /* ManageComplexForms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManageComplexForms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC89AA6D500A91F23DCC1197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		EC89AA6E3A734A0621C02306 /* AbstractSectionHolder+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AbstractSectionHolder+DataSource.swift"; sourceTree = "<group>"; };
+		EC89AAD14E68F9BBCD2BAE0D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		EC89AC507C9B49823D25FCD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC89AC68A07524A5ED45F2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		EC89AD31E0E99B56DC85CC99 /* ManageComplexFormsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageComplexFormsTests.swift; sourceTree = "<group>"; };
+		EC89AE212B03D77A61A6E1FF /* ViewControllerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPresenter.swift; sourceTree = "<group>"; };
+		EC89AEFCFE93B814751B3FA9 /* AbstractTableViewSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractTableViewSection.swift; sourceTree = "<group>"; };
+		EC89AF2718211EECEBE82863 /* AbstractTableViewSectionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractTableViewSectionProtocol.swift; sourceTree = "<group>"; };
+		EC89AF76496D311E9DE33AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC89AF76A83EF1FEE841D6F9 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EC89AF8F731A16EA78714797 /* UserInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		EC89AFBC92AB504FCBCA2DB6 /* CommonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC89A0C447F13AF010335640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89A99A9272D1A7B671120D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89ADDA5DB582BFA3BA1155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC89A2B81F851C08F443B8D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A99A88E4AA7DE38193BD /* ManageComplexForms.app */,
+				EC89A0DDAB0350C179F594E2 /* ManageComplexFormsTests.xctest */,
+				EC89A4A3B2F4C4FB0B74F5F0 /* ManageComplexFormsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC89A4029171A8626B782743 /* ManageComplexFormsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC89AA6D500A91F23DCC1197 /* Info.plist */,
+				EC89AD31E0E99B56DC85CC99 /* ManageComplexFormsTests.swift */,
+			);
+			path = ManageComplexFormsTests;
+			sourceTree = "<group>";
+		};
+		EC89A42DDD02A155BC52FFFB /* CommonTableView */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A5229EE1D1AEBBC99041 /* AbstractSectionHolder.swift */,
+				EC89AEFCFE93B814751B3FA9 /* AbstractTableViewSection.swift */,
+				EC89AF2718211EECEBE82863 /* AbstractTableViewSectionProtocol.swift */,
+				EC89AFBC92AB504FCBCA2DB6 /* CommonTableViewCell.swift */,
+				EC89A60EB8230B54C13CD140 /* TableViewModelCell.swift */,
+				EC89A47F6468711FE6848F71 /* AbstractSectionHolder+Delegate.swift */,
+				EC89AA6E3A734A0621C02306 /* AbstractSectionHolder+DataSource.swift */,
+			);
+			path = CommonTableView;
+			sourceTree = "<group>";
+		};
+		EC89A4B29CFFFB32C255760D /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A902DB137291AB630CE1 /* ViewController.swift */,
+				EC89AE212B03D77A61A6E1FF /* ViewControllerPresenter.swift */,
+				EC89A7FDF4B74004334E87F5 /* ViewControllerProtocol.swift */,
+				EC89A3F465C58F5879DE83B3 /* SectionHolder.swift */,
+				EC89A71B35B2AB7697A8304C /* Store */,
+				EC89A6949E240626981767D2 /* Section */,
+				EC89A7F14B3746B462F2F226 /* MainPageDataWrapper.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		EC89A5A20942E4E42E2FF9AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC89AF8F731A16EA78714797 /* UserInfoModel.swift */,
+				EC89A4372A886690813E5392 /* MainPageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC89A6949E240626981767D2 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A00DC4855495E1328159 /* UserInfoSection.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		EC89A6B45D01EEDAB7532214 /* ManageComplexForms */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A53207C10BB82DFE8C39 /* Info.plist */,
+				EC89A2CF91AF3B10537C2AEA /* Assets.xcassets */,
+				EC89A99C0BC7C1552536C967 /* LaunchScreen.storyboard */,
+				EC89AC507C9B49823D25FCD0 /* AppDelegate.swift */,
+				EC89A27F57E7563B9271CD83 /* SceneDelegate.swift */,
+				EC89A9DDDAE5D4ACD9EEF50B /* Main.storyboard */,
+				EC89A8735191434BBD60552A /* CommonModel */,
+				EC89A42DDD02A155BC52FFFB /* CommonTableView */,
+				EC89AC4CF0B7A7ECC4F01E1C /* Cell */,
+				EC89A5A20942E4E42E2FF9AD /* Model */,
+				EC89AECDA8A0B8152227E142 /* Service */,
+				EC89A4B29CFFFB32C255760D /* MainView */,
+			);
+			path = ManageComplexForms;
+			sourceTree = "<group>";
+		};
+		EC89A71B35B2AB7697A8304C /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A589BB36FC2B289BA5A4 /* UserInfoStoreProtocol.swift */,
+				EC89A7D334A0C8D97C0A7B89 /* UserInfoStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		EC89A814FAEB81AC95CD91DD /* ManageComplexFormsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC89AC68A07524A5ED45F2B2 /* Info.plist */,
+				EC89A1AB784D1E52FF760E80 /* ManageComplexFormsUITests.swift */,
+			);
+			path = ManageComplexFormsUITests;
+			sourceTree = "<group>";
+		};
+		EC89A8735191434BBD60552A /* CommonModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A048FD5ABE97AB1363EF /* ModelProtocol.swift */,
+				EC89AF76A83EF1FEE841D6F9 /* Model.swift */,
+				EC89A2271C9C214F6BCAE179 /* Section.swift */,
+			);
+			path = CommonModel;
+			sourceTree = "<group>";
+		};
+		EC89AB5B83CC97D2BE9DB2B5 = {
+			isa = PBXGroup;
+			children = (
+				EC89A2B81F851C08F443B8D0 /* Products */,
+				EC89A6B45D01EEDAB7532214 /* ManageComplexForms */,
+				EC89A4029171A8626B782743 /* ManageComplexFormsTests */,
+				EC89A814FAEB81AC95CD91DD /* ManageComplexFormsUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		EC89AC4CF0B7A7ECC4F01E1C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A57E52642A3D93A1C8D9 /* UserInfoCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EC89AECDA8A0B8152227E142 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A4F8F56CEB6274B278F7 /* DataServiceProtocol.swift */,
+				EC89AAD14E68F9BBCD2BAE0D /* DataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC89A06E7CEA28929A51A5FD /* ManageComplexFormsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC89A3A3A0677EA119C58581 /* Build configuration list for PBXNativeTarget "ManageComplexFormsUITests" */;
+			buildPhases = (
+				EC89A8087836C6C0E95D5694 /* Sources */,
+				EC89A99A9272D1A7B671120D /* Frameworks */,
+				EC89AB1D328A7032E5FFF436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC89AC1A0131AB1FFC396DD8 /* PBXTargetDependency */,
+			);
+			name = ManageComplexFormsUITests;
+			productName = ManageComplexFormsUITests;
+			productReference = EC89A4A3B2F4C4FB0B74F5F0 /* ManageComplexFormsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EC89A267726EE414BA306676 /* ManageComplexForms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC89A2F529680935BD9892A9 /* Build configuration list for PBXNativeTarget "ManageComplexForms" */;
+			buildPhases = (
+				EC89AD39FF6DF97FE1E7B134 /* Sources */,
+				EC89ADDA5DB582BFA3BA1155 /* Frameworks */,
+				EC89AB2ACC6B1E591A91E329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManageComplexForms;
+			productName = ManageComplexForms;
+			productReference = EC89A99A88E4AA7DE38193BD /* ManageComplexForms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC89A368EE25571DC77B8FBC /* ManageComplexFormsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC89AEB051BC3BE3CA16FAF6 /* Build configuration list for PBXNativeTarget "ManageComplexFormsTests" */;
+			buildPhases = (
+				EC89AD130267800C096F9621 /* Sources */,
+				EC89A0C447F13AF010335640 /* Frameworks */,
+				EC89ACCD838251C8217873E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC89A9522DEB4E371ACD5935 /* PBXTargetDependency */,
+			);
+			name = ManageComplexFormsTests;
+			productName = ManageComplexFormsTests;
+			productReference = EC89A0DDAB0350C179F594E2 /* ManageComplexFormsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC89ADD9ADAB97146CDF5701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Denis;
+			};
+			buildConfigurationList = EC89A2CCD80F40760FC5BC73 /* Build configuration list for PBXProject "ManageComplexForms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = EC89AB5B83CC97D2BE9DB2B5;
+			productRefGroup = EC89A2B81F851C08F443B8D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC89A267726EE414BA306676 /* ManageComplexForms */,
+				EC89A368EE25571DC77B8FBC /* ManageComplexFormsTests */,
+				EC89A06E7CEA28929A51A5FD /* ManageComplexFormsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC89AB1D328A7032E5FFF436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89AB2ACC6B1E591A91E329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC89A5F45E32E9324CC85884 /* Assets.xcassets in Resources */,
+				EC89AB50FCE7A12786199E29 /* LaunchScreen.storyboard in Resources */,
+				EC89AD675F7ECB1F367B7917 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89ACCD838251C8217873E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC89A8087836C6C0E95D5694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC89AACFFD903EE6914039FB /* ManageComplexFormsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89AD130267800C096F9621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC89A8DF26DA6E0BEF7402A3 /* ManageComplexFormsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89AD39FF6DF97FE1E7B134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC89A0E66309C21078BAC729 /* AppDelegate.swift in Sources */,
+				EC89AB6CD6EE478686231FF2 /* SceneDelegate.swift in Sources */,
+				EC89AADD4D3BDD0A629358A9 /* AbstractSectionHolder.swift in Sources */,
+				EC89A917D57A6BDB59F3A9BB /* AbstractTableViewSection.swift in Sources */,
+				EC89AB630A18CAFB7E9E43F5 /* AbstractTableViewSectionProtocol.swift in Sources */,
+				EC89A160BF4A3FC5A1330B78 /* ModelProtocol.swift in Sources */,
+				EC89A0C017448177AD5AD3A9 /* Model.swift in Sources */,
+				EC89AC86C1986CCA346577A5 /* CommonTableViewCell.swift in Sources */,
+				EC89AB66985930BE6E72E787 /* TableViewModelCell.swift in Sources */,
+				EC89A0D306343DE64A689F75 /* UserInfoCell.swift in Sources */,
+				EC89ACD22C77A051B0024A5F /* UserInfoModel.swift in Sources */,
+				EC89AD0F021506EF12EBA442 /* DataServiceProtocol.swift in Sources */,
+				EC89A7A2AC33E1F49CBED548 /* DataService.swift in Sources */,
+				EC89A9A09FEF11B248EC2063 /* ViewController.swift in Sources */,
+				EC89AB8C7B8227FBF5A351F0 /* Section.swift in Sources */,
+				EC89A4CC851344F867B31C1C /* ViewControllerPresenter.swift in Sources */,
+				EC89A0861714A44EB260676E /* ViewControllerProtocol.swift in Sources */,
+				EC89A69CE0613FBEC8F17788 /* SectionHolder.swift in Sources */,
+				EC89A56C67405FC82E5810D2 /* UserInfoStoreProtocol.swift in Sources */,
+				EC89A0B2A814E77E3A18782D /* UserInfoStore.swift in Sources */,
+				EC89AB790AB9145FFA3A5960 /* UserInfoSection.swift in Sources */,
+				EC89A0C9640EC4C275D10453 /* MainPageDataWrapper.swift in Sources */,
+				EC89A9AD449200068AFD7C6A /* MainPageModel.swift in Sources */,
+				EC89A1B27E068275501BCFD9 /* AbstractSectionHolder+Delegate.swift in Sources */,
+				EC89A50FA1AE223D82D7C648 /* AbstractSectionHolder+DataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC89A9522DEB4E371ACD5935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC89A267726EE414BA306676 /* ManageComplexForms */;
+			targetProxy = EC89A26314713FDEDE47ED4D /* PBXContainerItemProxy */;
+		};
+		EC89AC1A0131AB1FFC396DD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC89A267726EE414BA306676 /* ManageComplexForms */;
+			targetProxy = EC89A8C3E62BF4D8A5B7061C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC89A99C0BC7C1552536C967 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC89AF76496D311E9DE33AA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EC89A9DDDAE5D4ACD9EEF50B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC89A0FF6BB20776A77BEAFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC89A0555FAB7E283FA017D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ManageComplexForms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Denis.ManageComplexForms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC89A165D0FF1F8EAE72D804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ManageComplexForms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Denis.ManageComplexForms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC89AA07B9F52941B454E9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ManageComplexForms.app/ManageComplexForms";
+				INFOPLIST_FILE = ManageComplexFormsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Denis.ManageComplexFormsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		EC89AB1B3EDA85E6BEAF7529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ManageComplexFormsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Denis.ManageComplexFormsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ManageComplexForms;
+			};
+			name = Debug;
+		};
+		EC89AB4D8E806B97EE98585A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ManageComplexFormsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Denis.ManageComplexFormsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ManageComplexForms;
+			};
+			name = Release;
+		};
+		EC89AD2292D367BDCDA5623D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC89AE63CAC4754C6D8B3F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC89AFEB0DA5FC0A7EB660F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ManageComplexForms.app/ManageComplexForms";
+				INFOPLIST_FILE = ManageComplexFormsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Denis.ManageComplexFormsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC89A2CCD80F40760FC5BC73 /* Build configuration list for PBXProject "ManageComplexForms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC89AE63CAC4754C6D8B3F7A /* Debug */,
+				EC89AD2292D367BDCDA5623D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC89A2F529680935BD9892A9 /* Build configuration list for PBXNativeTarget "ManageComplexForms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC89A165D0FF1F8EAE72D804 /* Debug */,
+				EC89A0555FAB7E283FA017D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC89A3A3A0677EA119C58581 /* Build configuration list for PBXNativeTarget "ManageComplexFormsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC89AB1B3EDA85E6BEAF7529 /* Debug */,
+				EC89AB4D8E806B97EE98585A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC89AEB051BC3BE3CA16FAF6 /* Build configuration list for PBXNativeTarget "ManageComplexFormsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC89AFEB0DA5FC0A7EB660F7 /* Debug */,
+				EC89AA07B9F52941B454E9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC89ADD9ADAB97146CDF5701 /* Project object */;
+}
