@@ -41,6 +41,14 @@ class AbstractTableViewSection: NSObject, AbstractTableViewSectionProtocol {
 		models.remove(at: indexPath.row)
 		onRemoveCellCallback?(indexPath)
 	}
+
+	static func defaultCellConfigurator() -> ModelCellConfigurator {
+		{ (model, cell) in
+			if let cell = cell as? TableViewModelCell {
+				cell.modelProtocol = model
+			}
+		}
+	}
 }
 
 extension AbstractTableViewSection {

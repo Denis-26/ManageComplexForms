@@ -3,12 +3,12 @@
 // Copyright (c) 2020 Denis. All rights reserved.
 //
 
-class ViewControllerPresenter {
+class MainPageControllerPresenter {
 
 	var service: DataServiceProtocol!
-	weak var view: ViewControllerProtocol?
+	weak var view: MainPageControllerProtocol?
 
-	init(view: ViewControllerProtocol, _ service: DataServiceProtocol) {
+	init(view: MainPageControllerProtocol, _ service: DataServiceProtocol) {
 		self.view = view
 		self.service = service
 	}

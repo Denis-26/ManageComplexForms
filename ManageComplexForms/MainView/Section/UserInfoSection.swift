@@ -8,14 +8,12 @@ import Foundation
 class UserInfoSection: AbstractTableViewSection {
 
 	private var userInfoStore: UserInfoStoreProtocol!
-	weak var view: ViewControllerProtocol?
+	weak var view: MainPageControllerProtocol?
 
-	init(view: ViewControllerProtocol, _ userInfoStore: UserInfoStoreProtocol?) {
-		super.init(cellConfigurator: { model, cell in
-			if let cell = cell as? TableViewModelCell {
-				cell.modelProtocol = model
-			}
-		})
+	init(view: MainPageControllerProtocol, _ userInfoStore: UserInfoStoreProtocol?) {
+		super.init(
+				reuseIdentifier: UserInfoCell.identifier,
+				cellConfigurator: AbstractTableViewSection.defaultCellConfigurator())
 
 		self.userInfoStore = userInfoStore
 		self.view = view
@@ -42,6 +40,10 @@ class UserInfoSection: AbstractTableViewSection {
 	func addModel(model: UserInfoModel) {
 		userInfoStore.addModel(model)
 		refresh()
+	}
+
+	func getUsersData() -> [UserInfoModel] {
+		userInfoStore.getModels()
 	}
 
 	private func refresh() {

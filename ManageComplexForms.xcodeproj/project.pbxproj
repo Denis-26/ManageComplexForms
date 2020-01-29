@@ -7,24 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC89A0861714A44EB260676E /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A7FDF4B74004334E87F5 /* ViewControllerProtocol.swift */; };
+		EC89A0861714A44EB260676E /* MainPageControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A7FDF4B74004334E87F5 /* MainPageControllerProtocol.swift */; };
 		EC89A0B2A814E77E3A18782D /* UserInfoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A7D334A0C8D97C0A7B89 /* UserInfoStore.swift */; };
 		EC89A0C017448177AD5AD3A9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AF76A83EF1FEE841D6F9 /* Model.swift */; };
 		EC89A0C9640EC4C275D10453 /* MainPageDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A7F14B3746B462F2F226 /* MainPageDataWrapper.swift */; };
-		EC89A0D306343DE64A689F75 /* UserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A57E52642A3D93A1C8D9 /* UserInfoCell.swift */; };
 		EC89A0E66309C21078BAC729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AC507C9B49823D25FCD0 /* AppDelegate.swift */; };
 		EC89A160BF4A3FC5A1330B78 /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A048FD5ABE97AB1363EF /* ModelProtocol.swift */; };
 		EC89A1B27E068275501BCFD9 /* AbstractSectionHolder+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A47F6468711FE6848F71 /* AbstractSectionHolder+Delegate.swift */; };
-		EC89A4CC851344F867B31C1C /* ViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AE212B03D77A61A6E1FF /* ViewControllerPresenter.swift */; };
+		EC89A1C24C1D408860FCDFF8 /* MainPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A2E1299C34E3D1689D2F /* MainPageController.swift */; };
+		EC89A3E678711A171F153F86 /* ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AA802AAB24F3286DB882 /* ViewBuilder.swift */; };
+		EC89A4CC851344F867B31C1C /* MainPageControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AE212B03D77A61A6E1FF /* MainPageControllerPresenter.swift */; };
 		EC89A50FA1AE223D82D7C648 /* AbstractSectionHolder+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AA6E3A734A0621C02306 /* AbstractSectionHolder+DataSource.swift */; };
 		EC89A56C67405FC82E5810D2 /* UserInfoStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A589BB36FC2B289BA5A4 /* UserInfoStoreProtocol.swift */; };
 		EC89A5F45E32E9324CC85884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC89A2CF91AF3B10537C2AEA /* Assets.xcassets */; };
 		EC89A69CE0613FBEC8F17788 /* SectionHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A3F465C58F5879DE83B3 /* SectionHolder.swift */; };
+		EC89A6AC6EC901AFEE5A9071 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89ADC4BF84E91CA451D1C5 /* CustomTextField.swift */; };
+		EC89A7402315EBBE63820949 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A969DFC3F0B385EDA2DC /* StringUtil.swift */; };
 		EC89A7A2AC33E1F49CBED548 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AAD14E68F9BBCD2BAE0D /* DataService.swift */; };
+		EC89A830D1827DF4267C42B1 /* NumberUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AED6A902E7F4EA7F2BBF /* NumberUtil.swift */; };
 		EC89A8DF26DA6E0BEF7402A3 /* ManageComplexFormsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AD31E0E99B56DC85CC99 /* ManageComplexFormsTests.swift */; };
 		EC89A917D57A6BDB59F3A9BB /* AbstractTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AEFCFE93B814751B3FA9 /* AbstractTableViewSection.swift */; };
+		EC89A929A89E5091154DE2D7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EC89AC1AF528703457054811 /* Podfile */; };
 		EC89A9A09FEF11B248EC2063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A902DB137291AB630CE1 /* ViewController.swift */; };
 		EC89A9AD449200068AFD7C6A /* MainPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A4372A886690813E5392 /* MainPageModel.swift */; };
+		EC89A9EFE9B745EDAF796795 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AFD7FC8AEF5265FA9E21 /* UITableViewExtension.swift */; };
 		EC89AACFFD903EE6914039FB /* ManageComplexFormsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A1AB784D1E52FF760E80 /* ManageComplexFormsUITests.swift */; };
 		EC89AADD4D3BDD0A629358A9 /* AbstractSectionHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A5229EE1D1AEBBC99041 /* AbstractSectionHolder.swift */; };
 		EC89AB50FCE7A12786199E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC89A99C0BC7C1552536C967 /* LaunchScreen.storyboard */; };
@@ -37,6 +43,9 @@
 		EC89ACD22C77A051B0024A5F /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AF8F731A16EA78714797 /* UserInfoModel.swift */; };
 		EC89AD0F021506EF12EBA442 /* DataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A4F8F56CEB6274B278F7 /* DataServiceProtocol.swift */; };
 		EC89AD675F7ECB1F367B7917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC89A9DDDAE5D4ACD9EEF50B /* Main.storyboard */; };
+		EC89AEC98CED14A85A55D3CD /* UserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AB25F36ACF6374B11710 /* UserInfoCell.swift */; };
+		EC89AF7700A3C114B9C12D4E /* LayoutUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89AD8D4B57C653CD566CAF /* LayoutUtil.swift */; };
+		F2C01EC0B6840ABAE674DC20 /* Pods_ManageComplexForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA6FB8B65F134A883CB1F06 /* Pods_ManageComplexForms.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +66,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AA6FB8B65F134A883CB1F06 /* Pods_ManageComplexForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManageComplexForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1BC55EE1CBEF2948655CB2 /* Pods-ManageComplexForms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManageComplexForms.debug.xcconfig"; path = "Target Support Files/Pods-ManageComplexForms/Pods-ManageComplexForms.debug.xcconfig"; sourceTree = "<group>"; };
+		374F75283F20D5F6AECA0A38 /* Pods-ManageComplexForms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManageComplexForms.release.xcconfig"; path = "Target Support Files/Pods-ManageComplexForms/Pods-ManageComplexForms.release.xcconfig"; sourceTree = "<group>"; };
 		EC89A00DC4855495E1328159 /* UserInfoSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoSection.swift; sourceTree = "<group>"; };
 		EC89A048FD5ABE97AB1363EF /* ModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
 		EC89A0DDAB0350C179F594E2 /* ManageComplexFormsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManageComplexFormsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +77,7 @@
 		EC89A2271C9C214F6BCAE179 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		EC89A27F57E7563B9271CD83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC89A2CF91AF3B10537C2AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC89A2E1299C34E3D1689D2F /* MainPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageController.swift; sourceTree = "<group>"; };
 		EC89A3F465C58F5879DE83B3 /* SectionHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHolder.swift; sourceTree = "<group>"; };
 		EC89A4372A886690813E5392 /* MainPageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageModel.swift; sourceTree = "<group>"; };
 		EC89A47F6468711FE6848F71 /* AbstractSectionHolder+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AbstractSectionHolder+Delegate.swift"; sourceTree = "<group>"; };
@@ -72,27 +85,34 @@
 		EC89A4F8F56CEB6274B278F7 /* DataServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServiceProtocol.swift; sourceTree = "<group>"; };
 		EC89A5229EE1D1AEBBC99041 /* AbstractSectionHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractSectionHolder.swift; sourceTree = "<group>"; };
 		EC89A53207C10BB82DFE8C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		EC89A57E52642A3D93A1C8D9 /* UserInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoCell.swift; sourceTree = "<group>"; };
 		EC89A589BB36FC2B289BA5A4 /* UserInfoStoreProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoStoreProtocol.swift; sourceTree = "<group>"; };
 		EC89A60EB8230B54C13CD140 /* TableViewModelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewModelCell.swift; sourceTree = "<group>"; };
 		EC89A7D334A0C8D97C0A7B89 /* UserInfoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoStore.swift; sourceTree = "<group>"; };
 		EC89A7F14B3746B462F2F226 /* MainPageDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageDataWrapper.swift; sourceTree = "<group>"; };
-		EC89A7FDF4B74004334E87F5 /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
+		EC89A7FDF4B74004334E87F5 /* MainPageControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageControllerProtocol.swift; sourceTree = "<group>"; };
 		EC89A902DB137291AB630CE1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC89A969DFC3F0B385EDA2DC /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
 		EC89A99A88E4AA7DE38193BD /* ManageComplexForms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManageComplexForms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC89AA6D500A91F23DCC1197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		EC89AA6E3A734A0621C02306 /* AbstractSectionHolder+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AbstractSectionHolder+DataSource.swift"; sourceTree = "<group>"; };
+		EC89AA802AAB24F3286DB882 /* ViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBuilder.swift; sourceTree = "<group>"; };
 		EC89AAD14E68F9BBCD2BAE0D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		EC89AB25F36ACF6374B11710 /* UserInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoCell.swift; sourceTree = "<group>"; };
+		EC89AC1AF528703457054811 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		EC89AC507C9B49823D25FCD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC89AC68A07524A5ED45F2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		EC89AD31E0E99B56DC85CC99 /* ManageComplexFormsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageComplexFormsTests.swift; sourceTree = "<group>"; };
-		EC89AE212B03D77A61A6E1FF /* ViewControllerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPresenter.swift; sourceTree = "<group>"; };
+		EC89AD8D4B57C653CD566CAF /* LayoutUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutUtil.swift; sourceTree = "<group>"; };
+		EC89ADC4BF84E91CA451D1C5 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EC89AE212B03D77A61A6E1FF /* MainPageControllerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageControllerPresenter.swift; sourceTree = "<group>"; };
+		EC89AED6A902E7F4EA7F2BBF /* NumberUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberUtil.swift; sourceTree = "<group>"; };
 		EC89AEFCFE93B814751B3FA9 /* AbstractTableViewSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractTableViewSection.swift; sourceTree = "<group>"; };
 		EC89AF2718211EECEBE82863 /* AbstractTableViewSectionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractTableViewSectionProtocol.swift; sourceTree = "<group>"; };
 		EC89AF76496D311E9DE33AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC89AF76A83EF1FEE841D6F9 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		EC89AF8F731A16EA78714797 /* UserInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
 		EC89AFBC92AB504FCBCA2DB6 /* CommonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTableViewCell.swift; sourceTree = "<group>"; };
+		EC89AFD7FC8AEF5265FA9E21 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +134,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C01EC0B6840ABAE674DC20 /* Pods_ManageComplexForms.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D31564F0FAB9CB317166C337 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A1BC55EE1CBEF2948655CB2 /* Pods-ManageComplexForms.debug.xcconfig */,
+				374F75283F20D5F6AECA0A38 /* Pods-ManageComplexForms.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E038DED8C1CE5764FCCAEDB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AA6FB8B65F134A883CB1F06 /* Pods_ManageComplexForms.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC89A2B81F851C08F443B8D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +167,14 @@
 				EC89A4A3B2F4C4FB0B74F5F0 /* ManageComplexFormsUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EC89A2BFA72BDF92C76B29C2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EC89AFD7FC8AEF5265FA9E21 /* UITableViewExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		EC89A4029171A8626B782743 /* ManageComplexFormsTests */ = {
@@ -157,12 +204,14 @@
 			isa = PBXGroup;
 			children = (
 				EC89A902DB137291AB630CE1 /* ViewController.swift */,
-				EC89AE212B03D77A61A6E1FF /* ViewControllerPresenter.swift */,
-				EC89A7FDF4B74004334E87F5 /* ViewControllerProtocol.swift */,
+				EC89AE212B03D77A61A6E1FF /* MainPageControllerPresenter.swift */,
+				EC89A7FDF4B74004334E87F5 /* MainPageControllerProtocol.swift */,
 				EC89A3F465C58F5879DE83B3 /* SectionHolder.swift */,
 				EC89A71B35B2AB7697A8304C /* Store */,
 				EC89A6949E240626981767D2 /* Section */,
 				EC89A7F14B3746B462F2F226 /* MainPageDataWrapper.swift */,
+				EC89ADC60C6FB77290011517 /* Cell */,
+				EC89A2E1299C34E3D1689D2F /* MainPageController.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -195,10 +244,12 @@
 				EC89A9DDDAE5D4ACD9EEF50B /* Main.storyboard */,
 				EC89A8735191434BBD60552A /* CommonModel */,
 				EC89A42DDD02A155BC52FFFB /* CommonTableView */,
-				EC89AC4CF0B7A7ECC4F01E1C /* Cell */,
 				EC89A5A20942E4E42E2FF9AD /* Model */,
 				EC89AECDA8A0B8152227E142 /* Service */,
 				EC89A4B29CFFFB32C255760D /* MainView */,
+				EC89AC959FC287C86B8736EA /* Util */,
+				EC89A2BFA72BDF92C76B29C2 /* Extension */,
+				EC89AF4978377430F5D93105 /* Widget */,
 			);
 			path = ManageComplexForms;
 			sourceTree = "<group>";
@@ -238,13 +289,27 @@
 				EC89A6B45D01EEDAB7532214 /* ManageComplexForms */,
 				EC89A4029171A8626B782743 /* ManageComplexFormsTests */,
 				EC89A814FAEB81AC95CD91DD /* ManageComplexFormsUITests */,
+				EC89AC1AF528703457054811 /* Podfile */,
+				D31564F0FAB9CB317166C337 /* Pods */,
+				E038DED8C1CE5764FCCAEDB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		EC89AC4CF0B7A7ECC4F01E1C /* Cell */ = {
+		EC89AC959FC287C86B8736EA /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				EC89A57E52642A3D93A1C8D9 /* UserInfoCell.swift */,
+				EC89AA802AAB24F3286DB882 /* ViewBuilder.swift */,
+				EC89AED6A902E7F4EA7F2BBF /* NumberUtil.swift */,
+				EC89AD8D4B57C653CD566CAF /* LayoutUtil.swift */,
+				EC89A969DFC3F0B385EDA2DC /* StringUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		EC89ADC60C6FB77290011517 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC89AB25F36ACF6374B11710 /* UserInfoCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -256,6 +321,14 @@
 				EC89AAD14E68F9BBCD2BAE0D /* DataService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		EC89AF4978377430F5D93105 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				EC89ADC4BF84E91CA451D1C5 /* CustomTextField.swift */,
+			);
+			path = Widget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,9 +356,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC89A2F529680935BD9892A9 /* Build configuration list for PBXNativeTarget "ManageComplexForms" */;
 			buildPhases = (
+				443671CAE1911891BCE03506 /* [CP] Check Pods Manifest.lock */,
 				EC89AD39FF6DF97FE1E7B134 /* Sources */,
 				EC89ADDA5DB582BFA3BA1155 /* Frameworks */,
 				EC89AB2ACC6B1E591A91E329 /* Resources */,
+				2543D5B85FB4407759C5F77E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -358,6 +433,7 @@
 				EC89A5F45E32E9324CC85884 /* Assets.xcassets in Resources */,
 				EC89AB50FCE7A12786199E29 /* LaunchScreen.storyboard in Resources */,
 				EC89AD675F7ECB1F367B7917 /* Main.storyboard in Resources */,
+				EC89A929A89E5091154DE2D7 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +445,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2543D5B85FB4407759C5F77E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManageComplexForms/Pods-ManageComplexForms-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ManageComplexForms/Pods-ManageComplexForms-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		443671CAE1911891BCE03506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManageComplexForms-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC89A8087836C6C0E95D5694 /* Sources */ = {
@@ -400,14 +519,13 @@
 				EC89A0C017448177AD5AD3A9 /* Model.swift in Sources */,
 				EC89AC86C1986CCA346577A5 /* CommonTableViewCell.swift in Sources */,
 				EC89AB66985930BE6E72E787 /* TableViewModelCell.swift in Sources */,
-				EC89A0D306343DE64A689F75 /* UserInfoCell.swift in Sources */,
 				EC89ACD22C77A051B0024A5F /* UserInfoModel.swift in Sources */,
 				EC89AD0F021506EF12EBA442 /* DataServiceProtocol.swift in Sources */,
 				EC89A7A2AC33E1F49CBED548 /* DataService.swift in Sources */,
 				EC89A9A09FEF11B248EC2063 /* ViewController.swift in Sources */,
 				EC89AB8C7B8227FBF5A351F0 /* Section.swift in Sources */,
-				EC89A4CC851344F867B31C1C /* ViewControllerPresenter.swift in Sources */,
-				EC89A0861714A44EB260676E /* ViewControllerProtocol.swift in Sources */,
+				EC89A4CC851344F867B31C1C /* MainPageControllerPresenter.swift in Sources */,
+				EC89A0861714A44EB260676E /* MainPageControllerProtocol.swift in Sources */,
 				EC89A69CE0613FBEC8F17788 /* SectionHolder.swift in Sources */,
 				EC89A56C67405FC82E5810D2 /* UserInfoStoreProtocol.swift in Sources */,
 				EC89A0B2A814E77E3A18782D /* UserInfoStore.swift in Sources */,
@@ -416,6 +534,14 @@
 				EC89A9AD449200068AFD7C6A /* MainPageModel.swift in Sources */,
 				EC89A1B27E068275501BCFD9 /* AbstractSectionHolder+Delegate.swift in Sources */,
 				EC89A50FA1AE223D82D7C648 /* AbstractSectionHolder+DataSource.swift in Sources */,
+				EC89AEC98CED14A85A55D3CD /* UserInfoCell.swift in Sources */,
+				EC89A3E678711A171F153F86 /* ViewBuilder.swift in Sources */,
+				EC89A830D1827DF4267C42B1 /* NumberUtil.swift in Sources */,
+				EC89AF7700A3C114B9C12D4E /* LayoutUtil.swift in Sources */,
+				EC89A9EFE9B745EDAF796795 /* UITableViewExtension.swift in Sources */,
+				EC89A6AC6EC901AFEE5A9071 /* CustomTextField.swift in Sources */,
+				EC89A7402315EBBE63820949 /* StringUtil.swift in Sources */,
+				EC89A1C24C1D408860FCDFF8 /* MainPageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +582,7 @@
 /* Begin XCBuildConfiguration section */
 		EC89A0555FAB7E283FA017D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374F75283F20D5F6AECA0A38 /* Pods-ManageComplexForms.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ManageComplexForms/Info.plist;
@@ -469,6 +596,7 @@
 		};
 		EC89A165D0FF1F8EAE72D804 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1BC55EE1CBEF2948655CB2 /* Pods-ManageComplexForms.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ManageComplexForms/Info.plist;

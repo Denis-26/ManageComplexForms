@@ -3,7 +3,7 @@
 // Copyright (c) 2020 Denis. All rights reserved.
 //
 
-protocol ViewControllerProtocol: class {
+protocol MainPageControllerProtocol: class {
 
 	func setMainPageModel(mainPageModel: MainPageModel)
 

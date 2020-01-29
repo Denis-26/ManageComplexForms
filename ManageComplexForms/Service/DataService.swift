@@ -6,7 +6,14 @@
 class DataService: DataServiceProtocol {
 
 	func getMainPageModel() -> MainPageModel {
-		var usersInfo = [UserInfoModel(firstName: "Albert", lastName: "Albertov", secondName: "Albertovich", age: 25, gender: 1)]
+		var usersInfo = [UserInfoModel]()
+		usersInfo.append(UserInfoModel(firstName: "Albert1", lastName: "Albertov1", secondName: "Albertovich1", age: 25, gender: 1))
+		usersInfo.append(UserInfoModel(firstName: "Albert2", lastName: "Albertov2", secondName: "Albertovich2", age: 25, gender: 1))
+		usersInfo.append(UserInfoModel(firstName: "Albert3", lastName: "Albertov3", secondName: "Albertovich3", age: 25, gender: 1))
+		usersInfo.append(UserInfoModel(firstName: "Albert3", lastName: "Albertov3", secondName: "Albertovich3", age: 25, gender: 1))
+		usersInfo.append(UserInfoModel(firstName: "Albert3", lastName: "Albertov3", secondName: "Albertovich3", age: 25, gender: 1))
+		usersInfo.append(UserInfoModel(firstName: "Albert3", lastName: "Albertov3", secondName: "Albertovich3", age: 25, gender: 1))
+		usersInfo.append(UserInfoModel(firstName: "Albert3", lastName: "Albertov3", secondName: "Albertovich3", age: 25, gender: 1))
 		return MainPageModel(userInfoModels: usersInfo)
 	}
 }

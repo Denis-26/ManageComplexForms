@@ -9,47 +9,21 @@
 import UIKit
 
 
-class ViewController: UIViewController, ViewControllerProtocol {
+class ViewController: UIViewController {
 
-    private var sectionsHolder: SectionHolder!
-    private var presenter: ViewControllerPresenter!
-    private var mainPageWrapper: MainPageDataWrapperProtocol!
-
-    private var tableView: UITableView!
+    var navController: UINavigationController!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        mainPageWrapper = MainPageDataWrapper()
-        presenter = ViewControllerPresenter(view: self, DataService())
+        let mainPageController = MainPageController()
 
-        initViews()
-        addViews()
-        constrainViews()
+        navController = UINavigationController(rootViewController: mainPageController)
+        navController.modalPresentationStyle = .fullScreen
     }
 
-    private func initViews() {
-        sectionsHolder = SectionHolder(view: self)
-
-        tableView = UITableView()
-        tableView.delegate = sectionsHolder
-        tableView.dataSource = sectionsHolder
-    }
-
-    private func addViews() {
-        view.addSubview(tableView)
-    }
-
-    private func constrainViews() {
-
-    }
-
-    func setMainPageModel(mainPageModel: MainPageModel) {
-        mainPageWrapper.setMainPageModel(mainPageModel)
-        sectionsHolder.setMainPageWrapper(mainPageWrapper)
-    }
-
-    func onTableViewDataChanged() {
-        tableView.reloadData()
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.present(navController, animated: true)
     }
 }
