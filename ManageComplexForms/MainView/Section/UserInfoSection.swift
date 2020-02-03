@@ -25,21 +25,6 @@ class UserInfoSection: AbstractTableViewSection {
 		onNeedReloadTableView = {[weak self] in
 			self?.view?.onTableViewDataChanged()
 		}
-
-		onReorderCellsCallback = {[weak self] from, to in
-			self?.userInfoStore.swapElements(from: from, to: to)
-			self?.refresh()
-		}
-
-		onRemoveCellCallback = {[weak self] indexPath in
-			self?.userInfoStore.removeElement(indexPath)
-			self?.refresh()
-		}
-	}
-
-	func addModel(model: UserInfoModel) {
-		userInfoStore.addModel(model)
-		refresh()
 	}
 
 	func getUsersData() -> [UserInfoModel] {

@@ -6,8 +6,13 @@
 import Foundation
 
 
-struct MainPageModel {
+class MainPageModel {
 
 	var userInfoModels: [UserInfoModel]
+	var goodInfoModels: [GoodInfoModel]
 
+	init(userInfoModels: [UserInfoModel], goodInfoModels: [GoodInfoModel]) {
+		self.userInfoModels = userInfoModels
+		self.goodInfoModels = goodInfoModels
+	}
 }

@@ -32,7 +32,6 @@ class UserInfoCell: TableViewModelCell {
 		initViews()
 		addViews()
 		constraintViews()
-		setupCallbacks()
 	}
 
 	private func initViews() {
@@ -61,6 +60,20 @@ class UserInfoCell: TableViewModelCell {
 		LayoutUtil.stretchToSubview(container)
 	}
 
+	override var modelProtocol: ModelProtocol? {
+		didSet {
+			guard let model = modelProtocol?.data as? UserInfoModel else { return }
+			self.model = model
+			setupCallbacks()
+
+			firstName.text = model.firstName
+			lastName.text = model.lastName
+			secondName.text = model.secondName
+			age.text = String(model.age)
+			gender.text = model.gender == 1 ? "Male" : "Female"
+		}
+	}
+
 	private func setupCallbacks() {
 		firstName.onEditingChange = {[weak self] newValue in
 			self?.model.firstName = newValue
@@ -80,19 +93,6 @@ class UserInfoCell: TableViewModelCell {
 
 		gender.onEditingChange = {[weak self] newValue in
 			self?.model.gender = NumberUtil.toInt(newValue)
-		}
-	}
-
-	override var modelProtocol: ModelProtocol? {
-		didSet {
-			guard let model = modelProtocol?.data as? UserInfoModel else { return }
-			self.model = model
-
-			firstName.text = model.firstName
-			lastName.text = model.lastName
-			secondName.text = model.secondName
-			age.text = String(model.age)
-			gender.text = model.gender == 1 ? "Male" : "Female"
 		}
 	}
 }

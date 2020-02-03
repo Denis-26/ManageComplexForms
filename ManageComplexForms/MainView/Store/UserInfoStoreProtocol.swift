@@ -9,12 +9,6 @@ protocol UserInfoStoreProtocol {
 
 	var usersInfo: [UserInfoModel] { get }
 
-	func swapElements(from: Int, to: Int)
-
-	func removeElement(_ indexPath: IndexPath)
-
-	func addModel(_ model: UserInfoModel)
-
 	func getModels() -> [UserInfoModel]
 }
 

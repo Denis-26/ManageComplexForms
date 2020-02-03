@@ -31,9 +31,11 @@ class MainPageController: UIViewController, MainPageControllerProtocol {
 		sectionsHolder = SectionHolder(view: self)
 
 		tableView = UITableView()
+		tableView.isEditing = true
 		tableView.delegate = sectionsHolder
 		tableView.dataSource = sectionsHolder
 		tableView.register(UserInfoCell.self, forCellReuseIdentifier: UserInfoCell.identifier)
+		tableView.register(GoodInfoCell.self, forCellReuseIdentifier: GoodInfoCell.identifier)
 	}
 
 	private func addViews() {
